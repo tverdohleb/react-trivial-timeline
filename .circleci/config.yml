@@ -39,9 +39,11 @@ jobs:
             GIT_HASH=$(git rev-parse --short HEAD)
             SANITIZED_BRANCH=$(tr "/" "-" <<<$CIRCLE_BRANCH)
             VERY_SANITIZED_BRANCH=$(tr "." "-" <<<$SANITIZED_BRANCH)
+            SANITIZED_TAG=$(tr "." "-" <<<$CIRCLE_TAG)
+            BRANCH_URL_PART=${VERY_SANITIZED_BRANCH:-$SANITIZED_TAG}
             BUILD_URL=$(npx now storybook-static --name react-trivial-timeline -t $NOW_DEVELOPMENT_TOKEN --public)
             npx now alias ${BUILD_URL} ${GIT_HASH}-react-trivial-timeline -t $NOW_DEVELOPMENT_TOKEN
-            npx now alias ${BUILD_URL} ${VERY_SANITIZED_BRANCH}-react-trivial-timeline -t $NOW_DEVELOPMENT_TOKEN
+            npx now alias ${BUILD_URL} ${BRANCH_URL_PART}-react-trivial-timeline -t $NOW_DEVELOPMENT_TOKEN
 workflows:
   version: 2
   tagged-build:
