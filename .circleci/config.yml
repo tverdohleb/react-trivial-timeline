@@ -12,6 +12,7 @@ jobs:
           - v1-dependencies-
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
       - run: yarn install
+      - run: yarn lint
       - run: yarn build
       - run: npm publish
   build:
@@ -25,6 +26,7 @@ jobs:
           - v1-dependencies-{{ checksum "package.json" }}
           - v1-dependencies-
       - run: yarn install
+      - run: yarn lint
       - run: yarn build
       - run: yarn build-storybook
       - save_cache:
