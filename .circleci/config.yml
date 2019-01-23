@@ -48,13 +48,13 @@ workflows:
     jobs:
       - build:
           filters:
-            branches:
-              only: /.*/
+            tags:
+              only: /^v.*/
       - publish:
+          requires:
+            - build
           filters:
             tags:
               only: /^v.*/
             branches:
               ignore: /.*/
-          requires:
-            - build
