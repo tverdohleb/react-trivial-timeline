@@ -27,6 +27,10 @@ jobs:
       - run: yarn install
       - run: yarn build
       - run: yarn build-storybook
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
       - deploy:
           name: Deploy to Now
           command: |
