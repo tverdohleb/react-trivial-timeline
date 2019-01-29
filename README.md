@@ -1,5 +1,9 @@
 # Trivial but powerful react timeline
 
+## Demo
+
+Visit [demo page](https://master-react-trivial-timeline.now.sh) to see component in action.
+
 ## Getting started
 
 ```
