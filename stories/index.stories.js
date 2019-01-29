@@ -36,7 +36,11 @@ storiesOf('Timeline', module).add('demo', () => (
     <Event interval={{ start: 2010 }} title="Event" subtitle="Can also contain images etc">
       <img src="https://placekitten.com/400/400" alt="Kitten" />
     </Event>
-    <Event interval={{ start: 2010 }} intervalBackground="magenta" title="Intervals can have different background" />
+    <Event
+      interval={{ start: 2010 }}
+      intervalBackground="magenta"
+      title="Intervals can have different background"
+    />
     <Event
       interval={{ start: 2010 }}
       iconFill="linear-gradient(45deg, #FED373, #F15245, #D92E7F, #9B36B7, #515ECF)"
