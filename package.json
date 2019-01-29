@@ -1,6 +1,6 @@
 {
   "name": "react-trivial-timeline",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Dead simple react vertical event timeline component",
   "main": "dist/index.js",
   "scripts": {
