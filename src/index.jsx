@@ -9,6 +9,7 @@ const StyledContainer = styled.div``;
 const StyledList = styled.ul`
   max-width: 95%;
   list-style: none;
+  padding: 0px;
 `;
 
 const StyledItem = styled.li`
@@ -71,7 +72,7 @@ const Interval = ({ interval, separator }) => {
 
 const StyledContent = styled.div`
   position: relative;
-  margin-left: 4em;
+  margin-left: 2.5em;
 
   :before {
     background-color: ${(props) => props.lineColor};
@@ -87,7 +88,7 @@ const StyledContent = styled.div`
 
 const StyledInterval = styled.p`
   margin: 0 0 0 1em;
-  padding: 0.25em 0.5em;
+  padding: 0.25em 1em;
   background: ${(props) => props.background};
   color: ${(props) => props.color};
   border-radius: 1em;
@@ -112,7 +113,6 @@ StyledSubtitle.defaultProps = {
 const StyledIntervalContainer = styled.div`
   display: flex;
   flex-direction: row;
-  padding-left: 1.5em;
   margin: 1em 0;
   align-items: center;
 `;
