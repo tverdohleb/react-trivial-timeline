@@ -1,5 +1,8 @@
 # Trivial but powerful react timeline
 
+[![CircleCI](https://circleci.com/gh/tverdohleb/react-trivial-timeline/tree/master.svg?style=svg)](https://circleci.com/gh/tverdohleb/react-trivial-timeline/tree/master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2e5c8c906d6a547ca10d/maintainability)](https://codeclimate.com/github/tverdohleb/react-trivial-timeline/maintainability)
+
 ## Demo
 
 Visit [demo page](https://master-react-trivial-timeline.now.sh) to see component in action.
