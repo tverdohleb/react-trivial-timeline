@@ -63,6 +63,6 @@
     "react": "16.7.0",
     "react-dom": "16.7.0",
     "styled-components": "4.1.3",
-    "webpack": "4.29.0"
+    "webpack": "4.32.2"
   }
 }
