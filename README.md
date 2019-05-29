@@ -1,7 +1,9 @@
-# Trivial but powerful react timeline
+# Trivial but powerful event timeline for react
 
 [![CircleCI](https://circleci.com/gh/tverdohleb/react-trivial-timeline/tree/master.svg?style=svg)](https://circleci.com/gh/tverdohleb/react-trivial-timeline/tree/master)
+[![npm version](https://badge.fury.io/js/react-trivial-timeline.svg)](https://badge.fury.io/js/react-trivial-timeline)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2e5c8c906d6a547ca10d/maintainability)](https://codeclimate.com/github/tverdohleb/react-trivial-timeline/maintainability)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/tverdohleb/react-trivial-timeline/blob/master/LICENSE.md)
 
 ## Demo
 
