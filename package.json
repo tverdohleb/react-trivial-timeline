@@ -49,7 +49,7 @@
     "@storybook/storybook-deployer": "2.8.1",
     "babel-eslint": "10.0.3",
     "babel-loader": "8.0.6",
-    "eslint": "6.8.0",
+    "eslint": "8.57.0",
     "eslint-config-airbnb": "18.0.1",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "2.20.1",
