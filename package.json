@@ -46,7 +46,7 @@
     "@storybook/addon-links": "5.3.10",
     "@storybook/addons": "5.3.10",
     "@storybook/react": "5.3.10",
-    "@storybook/storybook-deployer": "2.8.1",
+    "@storybook/storybook-deployer": "2.8.16",
     "babel-eslint": "10.0.3",
     "babel-loader": "8.0.6",
     "eslint": "6.8.0",
